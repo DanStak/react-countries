@@ -1,0 +1,16 @@
+section.result h1{
+  font-size: 1.8rem;
+  color: rgb(156, 149, 149);
+}
+
+section.result span{
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+span.label{
+  text-transform: uppercase;
+  
+}
+

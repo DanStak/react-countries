@@ -1,0 +1,49 @@
+
+main{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+
+h1.loading{
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(156, 149, 149);
+  font-size: 3rem;
+}
+
+section.listOfCountries{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+button.filterButtons{
+  height: 2rem;
+  margin-top: 20px;
+  background-color: transparent;
+  transition: .2s linear;
+}
+
+button.filterButtons:hover{
+background-color: #0C0D11;
+border: 1px solid #0C0D11;
+}
+
+input.amount{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(156, 149, 149);
+  font-size: 1.5rem;
+  color: rgb(156, 149, 149);
+  margin-top: 20px;
+  text-align: center;
+}

@@ -1,0 +1,99 @@
+button{
+  background-color: #0C0D11;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border: 1px solid rgb(156, 149, 149);
+  color: rgb(156, 149, 149);
+  cursor: pointer;
+  transition: .2s linear;
+}
+
+button.africa{
+  margin: 0;
+}
+
+button.africa:hover{
+  background-color: #000;
+  border: 1px solid #000;
+  color: white;
+}
+
+button.asia:hover{
+  background-color: #F4C300;
+  border: 1px solid #F4C300;
+  color: white;
+}
+
+button.americas:hover{
+  background-color: #DF0024;
+  border: 1px solid #DF0024;
+  color: white;
+}
+
+button.europe:hover{
+  background-color: #0085C7;
+  border: 1px solid #0085C7;
+  color: white;
+}
+
+button.oceania:hover{
+  background-color: #009F3D;
+  border: 1px solid #009F3D;
+  color: white;
+}
+
+button:disabled{
+  background-color: transparent;
+}
+
+button:disabled:hover{
+  background-color: transparent;
+  color: rgb(156, 149, 149);
+  border: 1px solid rgb(156, 149, 149);
+  cursor: default;
+}
+
+main.mainGame{
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.mainGame h3.gameH3{
+  color: rgb(156, 149, 149);
+}
+
+.mainGame form{
+  width: 40%;
+  margin: 0 auto;
+}
+.mainGame form label{
+  color: rgb(156, 149, 149);
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+}
+
+.mainGame form div{
+  margin-top: 10px 
+}
+
+.mainGame form input{
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #3498db;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.mainGame form input:focus{
+  background-color: #0C0D11;
+}
+
+.mainGame form button{
+  margin-top: 20px;
+}
+

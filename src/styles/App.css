@@ -1,0 +1,73 @@
+div.App{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 8vh;
+}
+
+nav ul>li{
+  flex-basis: 25%;
+}
+
+li.main{
+  background-color: rgb(66, 134, 244);
+}
+
+li.all{
+  background-color: #EA4335;
+}
+
+li.find{
+  background-color: #FBBC05;
+}
+
+li.game{
+  background-color: #34A853;
+}
+
+li.liked{
+  background-color: #665;
+}
+
+
+nav ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.712);
+  font-size: 1.3rem;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 5px 0;
+  position: relative;
+}
+
+a span{
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+article{
+  flex-grow: 1;
+  background-color: #1D1E22;
+}
+
+footer{
+  height: 5vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: .7rem;
+}
