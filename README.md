@@ -10,6 +10,10 @@
 3) Play a simple game where you have to fill inputs by capital cities of drawn countries.
  ```
 
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
