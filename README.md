@@ -1,6 +1,6 @@
 # React Coutries
 
-### This is an app wrote in React which is using API from https://restcountries.eu/#rest-countries
+### This is an app wrote in React which is using API from https://restcountries.eu/#rest-countries and **REACT-ROUTER**
 
 #### What can you do?
  
@@ -9,6 +9,10 @@
 2) Find country which you are interested in
 3) Play a simple game where you have to fill inputs by capital cities of drawn countries.
  ```
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
